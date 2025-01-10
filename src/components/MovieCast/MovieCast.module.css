@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  flex: 1 1 150px;
+  text-align: center;
+}
+
+.image {
+  max-width: 120px;
+  height: auto;
+  border-radius: 5px;
+}
