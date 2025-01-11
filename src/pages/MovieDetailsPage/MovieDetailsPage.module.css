@@ -4,15 +4,16 @@
   flex-direction: column;
 }
 
-h1 {
-  text-align: center;
-}
-
 img {
   max-width: 500px;
-  align-self: center;
 }
 
 button {
-  margin-bottom: 20px;
+  max-width: 320px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
